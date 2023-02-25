@@ -1,0 +1,197 @@
+@media all and (max-width: 1100px) {
+    .main,
+    footer {
+        margin: 0 20px;
+    }
+    .header__content {
+        padding: 30px 20px;
+    }
+    .rating__container {
+        width: 100%;
+        flex-direction: column;
+    }
+    .rating__sun {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0 0 0;
+    }
+    .rating__sun p:nth-child(2) {
+        font-size: 30px;
+        line-height: 31px;
+        margin: 0 0 0 20px;
+    }
+    .interesting__title {
+        max-width: 500px;
+        margin: 0 0 20px 0;
+    }
+}
+@media all and (max-width: 1050px) {
+    .details__discount,
+    .details__promo,
+    .details__btn {
+        margin: 0 0 20px 0;
+    }
+}
+@media all and (max-width: 900px) {
+    .header__content {
+        flex-direction: column;
+    }
+    .header__left,
+    .header__center {
+        margin: 0 0 15px 0;
+    }
+    .rating__namber_title {
+        white-space: nowrap;
+        font-size: 26px;
+    }
+    .rating__namber_bottom li {
+        margin: 0 30px;
+    }
+    .name__title a, .name__price {
+        font-size: 26px;
+    }
+}
+@media all and (max-width: 767px) {
+    .tour__code {
+        width: 200px;
+        height: 200px;
+    }
+    .tour__code_title {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 22px;
+        margin: 0 0 10px 0;
+    }
+    .tour__code_text {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .tour__code_number {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .tour__image {
+        height: 100%;
+        padding: 50px 32px;
+    }
+    .rating__namber_bottom ul {
+        justify-content: space-around;
+        text-align: center;
+    }
+    .rating__namber_bottom li {
+        margin: 0 30px 15px 30px;
+    }
+    .name__title a, .name__price {
+        font-size: 22px;
+    }
+    .interesting__container {
+        padding: 25px 0 0 0;
+    }
+    .interesting__health {
+        display: none;
+    }
+    .interesting__title {
+        font-size: 40px;
+        max-width: 420px;
+        margin: 0 0 20px 0;
+    }
+}
+@media all and (max-width: 600px) {
+    .tour__code {
+        width: 150px;
+        height: 150px;
+    }
+    .tour__code_title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+        margin: 0 0 8px 0;
+    }
+    .tour__code_number {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .rating__namber_top { 
+        justify-content: center;
+        align-items: center;
+    }
+    .rating__namber_star svg {
+        width: 20px;
+        height: 20px;
+    }
+    .rating__namber_price {
+        font-size: 26px;
+    }
+    .interesting__title {
+        font-size: 36px;
+        max-width: 420px;
+    }
+    .interesing__retreat,
+    .interesting__table {
+        padding: 0;
+    }
+    .footer__right { 
+        padding: 0 10px;
+    }
+}
+@media all and (max-width: 500px) {
+    .rating__namber_price {
+        font-size: 32px;
+    }
+    .interesting__tab_content {
+        padding: 8px;
+    }
+    .interesting__tab_content table td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        margin-right: 20px;
+    }
+    .interesting__tab_content table thead {
+        display: none;
+    }
+    .interesting__tab_content table tr {
+        display: block;
+        border-bottom: 5px solid #E0E0E0;
+    }
+    .interesting__tab_content table td {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+    }
+    .interesting__tab_content table td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        margin-right: 20px;
+    }
+    .interesting__table tbody td {
+        padding: 10px 0;
+    }
+    .interesting__table tbody tr:nth-child(3) td {
+        border-bottom: 1px solid #E0E0E0;
+    }    
+    .interesting__text-italic {
+        margin: 0 0 24px 20px;
+    }
+    .footer__right a:nth-child(1) { 
+        margin: 0px 32px;
+    }
+}
+@media all and (max-width: 425px) {
+    .header__center p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .header__center a {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .tour__image {
+        height: 100%;
+        padding: 80px 20px 20px;
+    }
+    .interesting__title {
+        font-size: 34px;
+        max-width: 420px;
+    }
+}
